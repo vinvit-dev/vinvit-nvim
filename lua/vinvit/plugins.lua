@@ -23,7 +23,7 @@ if not status then
 	print("cant load packer")
 end
 
-return require('packer').startup(function(use)
+return packer.startup(function(use)
   use 'wbthomason/packer.nvim'
 
   use("nvim-lua/plenary.nvim")
@@ -66,8 +66,11 @@ return require('packer').startup(function(use)
   -- project
   use("ahmedkhalf/project.nvim")
 
+  -- alpha 
+  use("goolord/alpha-nvim")
+
 
   if packer_bootstrap then
-    require('packer').sync()
+    packer.sync()
   end
 end)

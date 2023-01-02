@@ -19,6 +19,7 @@ require("vinvit.plugins.gitsigns")
 require("vinvit.plugins.bufferline")
 require("vinvit.plugins.todo-comments")
 require("vinvit.plugins.project")
+require("vinvit.plugins.alpha")
 
 -- setup colorscheme
 require("vinvit.core.colorscheme")
