@@ -72,6 +72,14 @@ return packer.startup(function(use)
   -- alpha 
   use("goolord/alpha-nvim")
 
+  -- cmp
+  use("hrsh7th/nvim-cmp")
+  use("hrsh7th/cmp-buffer")
+  use("hrsh7th/cmp-path")
+
+  -- luasnip
+  use("L3MON4D3/LuaSnip")
+  use("saadparwaiz1/cmp_luasnip")
 
   if packer_bootstrap then
     packer.sync()

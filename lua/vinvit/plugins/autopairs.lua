@@ -7,3 +7,5 @@ if not status then
 end
 
 autopairs.setup()
+
+-- TODO: Add cmp integration.

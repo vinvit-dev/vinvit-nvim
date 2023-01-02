@@ -7,3 +7,5 @@ if not status then
 end
 
 todo_comments.setup()
+
+-- TODO: Add shorcuts.

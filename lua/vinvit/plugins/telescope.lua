@@ -11,3 +11,4 @@ telescope.setup()
 telescope.load_extension("notify")
 telescope.load_extension("projects")
 
+-- TODO: Add shorcuts.

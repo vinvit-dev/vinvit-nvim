@@ -20,6 +20,7 @@ require("vinvit.plugins.todo-comments")
 require("vinvit.plugins.project")
 require("vinvit.plugins.alpha")
 require("vinvit.plugins.lualine")
+require("vinvit.plugins.cmp")
 
 -- setup colorscheme
 require("vinvit.core.colorscheme")
