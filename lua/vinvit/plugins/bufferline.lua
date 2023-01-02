@@ -1,4 +1,4 @@
--- @todo: Maybe changeg to nvim-cokeline
+-- TODO: Maybe change bufferline to nvim-cokeline
 
 local status, bufferline = pcall(require, "bufferline")
 if not status then

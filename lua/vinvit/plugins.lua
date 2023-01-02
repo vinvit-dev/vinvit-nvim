@@ -45,6 +45,9 @@ return require('packer').startup(function(use)
   -- telescope
   use("nvim-telescope/telescope.nvim")
 
+  -- todo
+  use("folke/todo-comments.nvim")
+
   -- surround
   use("kylechui/nvim-surround")
 
@@ -59,6 +62,7 @@ return require('packer').startup(function(use)
 
   -- git
   use("lewis6991/gitsigns.nvim")
+
 
   if packer_bootstrap then
     require('packer').sync()

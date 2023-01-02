@@ -17,6 +17,7 @@ require("vinvit.plugins.autopairs")
 require("vinvit.plugins.comment")
 require("vinvit.plugins.gitsigns")
 require("vinvit.plugins.bufferline")
+require("vinvit.plugins.todo-comments")
 
 -- setup colorscheme
 require("vinvit.core.colorscheme")
