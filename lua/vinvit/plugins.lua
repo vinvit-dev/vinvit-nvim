@@ -63,6 +63,9 @@ return require('packer').startup(function(use)
   -- git
   use("lewis6991/gitsigns.nvim")
 
+  -- project
+  use("ahmedkhalf/project.nvim")
+
 
   if packer_bootstrap then
     require('packer').sync()
