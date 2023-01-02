@@ -1,13 +1,12 @@
 -- core options
 require("vinvit.core.options")
-
--- install modules
-require("vinvit.plugins")
-
--- keybinds settings
+-- install modules require("vinvit.plugins") keybinds settings
 require("vinvit.core.keymaps")
 
--- Plugins settings:gitsigns
+-- Plugins
+require("vinvit.plugins")
+
+-- Plugins settings
 require("vinvit.plugins.nvim-notify")
 require("vinvit.plugins.nvim-tree")
 require("vinvit.plugins.telescope")
@@ -20,6 +19,7 @@ require("vinvit.plugins.bufferline")
 require("vinvit.plugins.todo-comments")
 require("vinvit.plugins.project")
 require("vinvit.plugins.alpha")
+require("vinvit.plugins.lualine")
 
 -- setup colorscheme
 require("vinvit.core.colorscheme")

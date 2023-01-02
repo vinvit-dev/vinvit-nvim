@@ -36,10 +36,13 @@ return packer.startup(function(use)
   use("christoomey/vim-tmux-navigator")
 
   -- theme 
-  use("ellisonleao/gruvbox.nvim")
+  use("morhetz/gruvbox")
 
   -- bufferline
   use("akinsho/bufferline.nvim")
+
+  -- lualine
+  use("nvim-lualine/lualine.nvim")
 
 
   -- telescope
