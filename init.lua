@@ -21,6 +21,7 @@ require("vinvit.plugins.project")
 require("vinvit.plugins.alpha")
 require("vinvit.plugins.lualine")
 require("vinvit.plugins.cmp")
+require("vinvit.plugins.lsp")
 
 -- setup colorscheme
 require("vinvit.core.colorscheme")

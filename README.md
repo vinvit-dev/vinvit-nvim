@@ -1,2 +1,2 @@
 # vinvit-nvim
-My nvim configuration
+My neovim configuration

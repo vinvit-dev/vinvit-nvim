@@ -22,17 +22,13 @@ local status, packer = pcall(require, "packer");
 if not status then
 	print("cant load packer")
 end
-
-return packer.startup(function(use)
-  use 'wbthomason/packer.nvim'
-
+return packer.startup(function(use) use 'wbthomason/packer.nvim'
   use("nvim-lua/plenary.nvim")
   use("rcarriga/nvim-notify")
 
   use("nvim-tree/nvim-tree.lua")
   use("nvim-tree/nvim-web-devicons")
-
-  -- nvim&tmux tab switch plugin
+-- nvim&tmux tab switch plugin
   use("christoomey/vim-tmux-navigator")
 
   -- theme 
@@ -76,10 +72,18 @@ return packer.startup(function(use)
   use("hrsh7th/nvim-cmp")
   use("hrsh7th/cmp-buffer")
   use("hrsh7th/cmp-path")
+  use('hrsh7th/cmp-nvim-lsp') 
 
   -- luasnip
   use("L3MON4D3/LuaSnip")
+  use("rafamadriz/friendly-snippets")
   use("saadparwaiz1/cmp_luasnip")
+
+  -- LSP
+  use("williamboman/mason.nvim")
+  use("williamboman/mason-lspconfig.nvim")
+  use("neovim/nvim-lspconfig")
+  use("glepnir/lspsaga.nvim")
 
   if packer_bootstrap then
     packer.sync()

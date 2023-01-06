@@ -1,4 +1,3 @@
-
 local status, alpha = pcall(require, "alpha")
 if not status then
   vim.notify("Can't load alpha plugin", "error", {
