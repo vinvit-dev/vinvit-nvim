@@ -32,21 +32,3 @@ for _, server in pairs(servers.lsp) do
   end
   lspconfig[server].setup(opts)
 end
-
-lspconfig["sumneko_lua"].setup({
-	capabilities = copabilitie,
-	on_attach = on_attach,
-  settings = {
-		Lua = {
-			diagnostics = {
-				globals = { "vim" },
-			},
-			workspace = {
-				library = {
-					[vim.fn.expand("$VIMRUNTIME/lua")] = true,
-					[vim.fn.stdpath("config") .. "/lua"] = true,
-				},
-			},
-		},
-	},
-})
